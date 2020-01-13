@@ -4,7 +4,7 @@
          <template v-slot:first2='username' @changeN='changem'>
            {{username.username}}
         </template>
-        <p>呵呵哒，呵呵哒</p>
+        <p>呵呵哒，呵呵哒，江湖不在见</p>
 
     </Child>
     </div>
