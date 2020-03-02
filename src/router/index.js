@@ -10,20 +10,12 @@ const routes = [
     name: 'home',
     component: Home
   },
+ 
   {
-    path: '/about',
-    name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  },
-  {
-    path: '/first',
-    name: 'first',
-    component: () => import(/* webpackChunkName: "first" */ '../views/First.vue')
-  },
-  {
-    path: '/child',
-    name: 'child',
-    component: () => import(/* webpackChunkName: "child" */ '../views/Child.vue')
+    path: '/showscreen',
+    name: '投屏展示',
+    component: () => import('../components/showscreen/ShowScreen'),
+    hidden: true,
   }
 ]
 
