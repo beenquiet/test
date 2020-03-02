@@ -54,7 +54,7 @@ export default {
 </script>
 <style scoped>
 .show-data {
-  height: 90%;
+  height: 98%;
   width: 100%;
   color: #fff;
   display: flex;
